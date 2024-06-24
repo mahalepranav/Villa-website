@@ -10,13 +10,13 @@
 </head>
 <body>
     <header class="header">
-        <button class="button1" onclick="window.location.href='home.html';">Home</button>
-        <button class="button2" onclick="window.location.href='properties.html';">Properties</button>
-        <button class="button3" onclick="window.location.href='contact.html';">Contact</button>
+        <a href="home.html"><button class="button1">Home</button></a> 
+        <a href="properties.html"><button class="button2">Properties</button></a> 
+        <a href="contact.html"><button class="button3">Contact</button></a> 
         <div class="company-name">Villa</div>
     </header>
     <div>
-        <img src="./images/home-page-image.avif" class="home-image">
+        <img src="./images/home-page-image.jpg" class="home-image">
         <div class="center"><i class="material-icons" style="font-size:30px;color:rgb(243, 233, 233)">place</i>Pune, India</div>
         <div class="centered">GET THE BEST VILLA<br>AS YOU WANT IT</div>
     </div>
@@ -50,15 +50,12 @@
     </div>
     <div class="box-1">
         <p class="num1">20 Buildings Finished</p>
-        <!-- <p class="num2">Buildings Finished Now</p> -->
     </div>
     <div class="box-1">
         <p class="num1">10 + Years Experience</p>
-        <!-- <p class="num2">Years Experience</p> -->
     </div>
     <div class="box-1">
         <p class="num1">15 Awards Won 2023</p>
-        <!-- <p class="num2">Awards Won 2023</p> -->
     </div>
     <br><br><br><br><br><br>
     <h2 style="color: #EE626B; text-align: center;">| PROPERTIES</h2>
@@ -101,9 +98,9 @@
             <p>Villa-6 Noida<br>Price:- &#8377;<span style="color:green"> 94,45,800</span> <span style="color: gray;"><del>96,50,900</del></span></p>
         </div>
     </div>
-    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br>
     <h2 style="color: #EE626B; text-align: center;">| CONTACT INFO</h2>
-    <br><br><br><br>
+    <br>
     <div class="layout">
         <div>
             <div class="contact-text-1">CONTACT US</div>
@@ -122,32 +119,32 @@
             </div>
             <div class="contact-info-2">
                 <img src="./images/mail-icon.jpg" class="image-2">
-                <span class="span">pranav@gmail.com</span>
+                <span class="span"><a href="mailto:pranav@gmail.com">pranav@gmail.com</a></span>
             </div>
         </div>
-            <div class="form-border">
-                <form>
-                    <label for="fname">Full Name</label><br>
-                    <input type="text" id="fname" name="fname" placeholder="Your Name.."><br>
-                    <label for="ename">Email Address</label><br>
-                    <input type="text" id="ename" name="ename" placeholder="Your Email.."><br>
-                    <label for="mname">Mobile Number</label><br>
-                    <input type="text" id="mname" name="mname" placeholder="Your Mobile Number.."><br>
-                    <label for="mesname">Message</label><br>
-                    <textarea type="text" id="mename" name="mename" value="Your Message.."></textarea><br>
-                    <input type="submit" placeholder="send message">
-                </form>
-            </div>
+        <div class="form-border">
+            <form>
+                <label for="fname">Full Name</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Your Name.."><br>
+                <label for="ename">Email Address</label><br>
+                <input type="text" id="ename" name="ename" placeholder="Your Email.."><br>
+                <label for="mname">Mobile Number</label><br>
+                <input type="text" id="mname" name="mname" placeholder="Your Mobile Number.."><br>
+                <label for="mesname">Message</label><br>
+                <textarea type="text" id="mename" name="mename" value="Your Message.."></textarea><br>
+                <input type="submit" placeholder="send message">
+            </form>
+        </div>
     </div>
     <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3783.184029044969!2d73.85206337519166!3d18.520584132573003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d18.5204736!2d73.8525184!4m5!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2spune!3m2!1d18.520430299999997!2d73.8567437!5e0!3m2!1sen!2sin!4v1717755489984!5m2!1sen!2sin" width="1200" height="400" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3783.184029044969!2d73.85206337519166!3d18.520584132573003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d18.5204736!2d73.8525184!4m5!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2spune!3m2!1d18.520430299999997!2d73.8567437!5e0!3m2!1sen!2sin!4v1717755489984!5m2!1sen!2sin" width="400" height="400" style="border: 1px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <footer class="footer">
         <h4>Copyright &copy; Villa Company Pvt. Ltd. <br>Apte Ghat, Shaniwar Peth, Pune, Maharashtra 411030</h4>
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-instagram"></a>
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://x.com/?lang=en-in" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
     </footer>
 </body>
 </html>
